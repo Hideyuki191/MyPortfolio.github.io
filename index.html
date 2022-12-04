@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="student" content="Hideyuki Atago">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/P3MC.ico">
+    <link rel="stylesheet" href="/MyPortfolio/CSS/Website.css">
+    <title>About Me</title>
+</head>
+
+<body style="background-color: blue;">
+    <header style="border: 4px solid black; background-color: orange;">
+        <h1 style="text-align: center;">My Portfolio</h1>
+        <p style="text-align: center;">What I have done up until now</p>
+    </header>
+
+    <br>
+
+    <header style="border: 3px solid black; background-color: orange; text-align: center;">
+        <p>The kinds of games I enjoy the most tend to be turn-based JRPG games or more slow paced
+            kinds, things like strategy/tactical/Dungeon Crawlers and more as long as they have some
+            form of RPG elements in them. My favourite games mostly come from Atlus with their games such
+            as Etrian Odyssey and Shin Megami Tensei as well as their spin-offs such as Devil Survivor
+            and Etrian Mystery Dungeon. 
+        </p>
+    </header>
+
+    <br>
+
+    <div class="flex-container">
+        <div>
+            <h1>Games I have Made</h1>
+            <p>There are 2 games I'm moderately proud of, one is a short turn-based dungeon crawler,
+                the other one is a escape game.
+            </p>
+
+            <h2>The Great Escape</h2>
+            <p>It is a simple dungeon crawler where your main goal is to get to the end goal
+                which is a big doorway. On the way to getting to the goal, the player will be
+                attacked through random encounters where they have to fight to continue, if they
+                run out of hp, they will lose the game but if they win then they will earn experience
+                points. If they earn enough experience points then they will lvl up which will restore
+                their HP and MP to continue fighting.
+
+                <br>
+                <br>
+                
+                The camera controls I have taken from how older dungeon crawlers like smt on NES
+                or etrian odyssey on the DS did it, a fixed 90 degree turn in either left or right
+                direction.
+            </p>
+            <video width="320" height="240" controls>
+                <source src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Videos/Dungeon_Crawler.mp4" type=video/mp4>
+              </video>
+
+              <br>
+
+              <h2>The Unknown Tower</h2>
+              <p>
+                For this game, I decided with making a lava room that rises every few seconds while the
+                player tries to run away to unlock the door before escaping through it, should they not do
+                it fast enough, then they will die and restart the level.
+
+                <br><br>
+
+                For the other levels it's more simple like the first level, it's 2 levels in one and jumping
+                through a certain block will swap between level 1 and level 2. 
+                
+                <br><br>
+
+                last 2 levels are more to showcase the slimes, it has basic ai from patroling, to chasing player,
+                dying, then heading back to it's spawn point should it die before respawning itself again.
+                
+                <br><br>
+
+                Last stage is a race against a slime, if the slime gets to the end first, then the player
+                will die and have to restart.
+
+                <br><br>
+
+                For the main menu, I added a music library that lets you play any of the 3 songs in the game,
+                 if the song is already playing then it won't change, otherwise it will lower the music players
+                 volume until it hits 0, then changes the music before bringing it back up so that it doesn't
+                 feels so abrupt when the music changes.
+              </p>
+              <video width="320" height="240" controls>
+                <source src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Videos/The Unknown Tower.mp4" type=video/mp4>
+              </video>
+
+        </div>
+
+        <div>
+            <h1>Studio Projects</h1>
+            <p>There are 2 studio projects that I feel I have done enough of to mention. 1 is a 
+                parody of squid game, the other a rogue like shooter game.
+            </p>
+
+            <br>
+
+            <h2>Super Pain</h2>
+            <p>The first project is the game Super Pain, in this project I have made the entire
+                shop system, helped out with the weapon selection (Mainly transition screen to
+                main game as well as a border to highlight the weapons when the player hovers
+                over them), and lastly, I did the map generation so that the rocks and trees are
+                spawned randomly every time to block the players as well as a "Super Pain" power
+                that has a low chance of spawning that will shake the screen and kill every enemy
+                within a certain distance from the player.
+
+                <br>
+                <br>
+                To minimize lag and slowdowns I've done distance rendering where if enemies and objects
+                are far enough away from the player, they will not be rendered until they get close enough
+                to the player again.
+
+                <br>
+                <br>
+
+                One extra thing i've added is a way to save the players upgrades they bought from the store,
+                that way they do not have to waste time getting gold again to upgrade from scratch.
+            </p>
+
+
+            <video width="320" height="240" controls>
+                <source src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Videos/sp3 trailer.mp4" type=video/mp4>
+              </video>
+
+            <br>
+            
+            <h2>Scam Game</h2>
+            <p>
+                I was unable to get the project again for it, but I do remember what I did on it.
+                It's nothing much other than collision detection, the lobby scene where it renders
+                beds but renders lesser beds as the player goes through the different sections of the game.
+                Lastly, I did the "Simon says" where the player will have to stand on the same color as displayed
+                on the screen otherwise they die.
+            </p>
+        </div>
+    </div>
+    
+    <!--Image Reel And video-->
+    <div class="flex-container">
+        <div>
+            <h2>Images of projects I worked on</h2>
+            <div class="ImageReel"> 
+                <div class="ImageToShow"><img src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Images/ScreenShot1.png" alt="SP3_1"></div>
+                <div class="ImageToShow"><img src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Images/ScreenShot2.png" alt="SP3_2"></div>
+                <div class="ImageToShow"><img src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Images/GameOver.jpg" alt="DungeonCrawler_1"></div>
+                <div class="ImageToShow"><img src="https://github.com/Hideyuki191/MyPortfolio.github.io/blob/main/MyPortfolio/Images/Inanna Enemy.jpg" alt="DungeonCrawler_2"></div>
+            </div>
+        </div>
+    </div>
+</body>
